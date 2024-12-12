@@ -29,7 +29,7 @@ Key deliverables include exploratory data analysis (EDA), feature engineering, m
     |-- correlation_matrix.png        # Heatmap of feature correlations
     |-- confusion_matrix.png          # Confusion matrix of the final model
     |-- feature_histograms.png        # Histogram visualizations for continuous variables
-
+```
 ---
 
 ## Key Insights
@@ -39,3 +39,13 @@ Key deliverables include exploratory data analysis (EDA), feature engineering, m
 
 ---
 
+## Technologies Used
+Programming Language: Python
+Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, PHIK
+Models: Logistic Regression, Ridge Classifier, K-Nearest Neighbors, Decision Tree, Random Forest, Gradient Boosting Machine (GBM)
+
+---
+
+## Contact
+For any inquiries or further collaboration, please contact: Stefano Compagnone
+Email: stefanocompagnone98@gmail.com
