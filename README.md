@@ -33,9 +33,9 @@ Key deliverables include exploratory data analysis (EDA), feature engineering, m
 ---
 
 ## Key Insights
-- **Correlation Analysis: Strong correlations identified between birthweight and factors such as parental age, education level, and health-related behaviors (e.g., smoking and drinking).
-- **Threshold Analysis: Explored birthweight thresholds distinguishing healthy and non-healthy categories, supported by public health research.
-- **Model Interpretability: Highlighted impactful features, such as maternal education and prenatal visits, to provide actionable insights for healthcare professionals.
+- Correlation Analysis: Strong correlations identified between birthweight and factors such as parental age, education level, and health-related behaviors (e.g., smoking and drinking).
+- Threshold Analysis: Explored birthweight thresholds distinguishing healthy and non-healthy categories, supported by public health research.
+- Model Interpretability: Highlighted impactful features, such as maternal education and prenatal visits, to provide actionable insights for healthcare professionals.
 
 ---
 
