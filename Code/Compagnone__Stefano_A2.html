@@ -1,0 +1,3049 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>5ed3b2073c144ee181dc3b366d960a03</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="introduction-to-the-modeling-case-study"
+class="cell markdown" id="Zwynnyl3skVb">
+<h1><strong>Introduction to the Modeling Case Study</strong></h1>
+<p>In the realm of public health, particularly concerning prenatal care,
+the focus often narrows to one paramount concern: the health and
+well-being of the unborn child. This study dives deep into the critical
+arena of birthweight analysis, an endeavor that not only highlights the
+intricacies of neonatal health but also stands as a testament to the
+power of machine learning in forging pathways to lifesaving
+interventions.</p>
+<p>At the heart of this case study lies the objective to analyze and
+predict birthweight—a vital metric indicative of a newborn's health
+status. The journey of this analysis traverses through the multifaceted
+landscape of Computational Analytics and Machine Learning, equipped with
+a data-driven arsenal aimed at uncovering the determinants of
+birthweight. Engaging in this meticulous exploration is not just an
+academic exercise; it's a mission where the stakes are profoundly human,
+with the potential to save lives and enhance the quality of neonatal
+care.</p>
+</section>
+<section id="importing-libraries" class="cell markdown"
+id="VnOW-QIOs1iv">
+<h2>IMPORTING LIBRARIES</h2>
+</section>
+<div class="cell code" data-execution_count="2" id="HBXxeV8SNJZu">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Data manipulation and analysis</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Data visualization</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Machine Learning</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sklearn.linear_model</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LogisticRegression, RidgeClassifier</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.tree <span class="im">import</span> DecisionTreeClassifier</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestClassifier, GradientBoostingClassifier</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.neighbors <span class="im">import</span> KNeighborsClassifier</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler, power_transform</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> RandomizedSearchCV, GridSearchCV</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score, classification_report, mean_squared_error, confusion_matrix, roc_auc_score, precision_score, recall_score, f1_score</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> make_scorer</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> phik <span class="im">import</span> report, resources</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Setting pandas print options (optional)</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>pd.set_option(<span class="st">&#39;display.max_rows&#39;</span>, <span class="dv">500</span>)</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>pd.set_option(<span class="st">&#39;display.max_columns&#39;</span>, <span class="dv">500</span>)</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>pd.set_option(<span class="st">&#39;display.width&#39;</span>, <span class="dv">1000</span>)</span></code></pre></div>
+</div>
+<section id="step-1--data-loading" class="cell markdown"
+id="Dg47xU9vkET0">
+<h1><strong>STEP 1 : DATA LOADING</strong></h1>
+</section>
+<section id="loading-datasets" class="cell markdown" id="aph_dzZekUsG">
+<h2>Loading Datasets</h2>
+<p>In this section, we focus on loading the datasets necessary for
+analysis. Two datasets are utilized: <code>birthweight.csv</code> and
+<code>kaggle_test_data.csv</code>. The training dataset,
+<code>birthweight.csv</code>, is read into a DataFrame named
+<code>df_train</code>, while the test dataset,
+<code>kaggle_test_data.csv</code>, is read into another DataFrame named
+<code>df_test</code>. The <code>index_col</code> parameter is set to
+'obs_id' to designate 'obs_id' as the index column in the training
+dataset.</p>
+</section>
+<div class="cell code" data-execution_count="3" id="Rg6avs_Y50-1">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Load datasets</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>df_train <span class="op">=</span> pd.read_csv(<span class="st">&#39;./birthweight.csv&#39;</span>, index_col<span class="op">=</span><span class="st">&#39;obs_id&#39;</span>)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>df_test <span class="op">=</span> pd.read_csv(<span class="st">&#39;./kaggle_test_data.csv&#39;</span>)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+</div>
+<section id="step-2--eda" class="cell markdown" id="7u6GV4I9kZO3">
+<h1><strong>STEP 2 : EDA</strong></h1>
+</section>
+<div class="cell code" data-execution_count="4"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="_SspkLtg53V7" data-outputId="f17c4e05-0da4-4fce-8882-90902937c3d4">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Display basic information about the training dataset</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Training Dataset Info:&quot;</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_train.info())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Training Dataset Info:
+&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+Index: 1648 entries, id_0001 to id_1832
+Data columns (total 18 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   mage    1648 non-null   int64  
+ 1   meduc   1623 non-null   float64
+ 2   monpre  1644 non-null   float64
+ 3   npvis   1592 non-null   float64
+ 4   fage    1642 non-null   float64
+ 5   feduc   1611 non-null   float64
+ 6   omaps   1645 non-null   float64
+ 7   fmaps   1645 non-null   float64
+ 8   cigs    1547 non-null   float64
+ 9   drink   1543 non-null   float64
+ 10  male    1648 non-null   int64  
+ 11  mwhte   1648 non-null   int64  
+ 12  mblck   1648 non-null   int64  
+ 13  moth    1648 non-null   int64  
+ 14  fwhte   1648 non-null   int64  
+ 15  fblck   1648 non-null   int64  
+ 16  foth    1648 non-null   int64  
+ 17  bwght   1648 non-null   int64  
+dtypes: float64(9), int64(9)
+memory usage: 244.6+ KB
+None
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="5"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="ejZ5PgBOKowt" data-outputId="4ae163fb-9d7c-488b-a315-0b822453e68a">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>df_test.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 184 entries, 0 to 183
+Data columns (total 18 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   obs_id  184 non-null    object 
+ 1   mage    184 non-null    int64  
+ 2   meduc   179 non-null    float64
+ 3   monpre  183 non-null    float64
+ 4   npvis   172 non-null    float64
+ 5   fage    184 non-null    int64  
+ 6   feduc   174 non-null    float64
+ 7   omaps   184 non-null    int64  
+ 8   fmaps   184 non-null    int64  
+ 9   cigs    175 non-null    float64
+ 10  drink   174 non-null    float64
+ 11  male    184 non-null    int64  
+ 12  mwhte   184 non-null    int64  
+ 13  mblck   184 non-null    int64  
+ 14  moth    184 non-null    int64  
+ 15  fwhte   184 non-null    int64  
+ 16  fblck   184 non-null    int64  
+ 17  foth    184 non-null    int64  
+dtypes: float64(6), int64(11), object(1)
+memory usage: 26.0+ KB
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="6"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:351}"
+id="mUPkLWhf6D2J" data-outputId="cf80ccbc-7d33-4248-ac79-0c05f911860b">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Display summary statistics for the training dataset</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Training Dataset Summary Statistics:&quot;</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>df_train.describe()</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+Training Dataset Summary Statistics:
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="6">
+
+  <div id="df-a61a0e14-9137-4bf2-858a-43b7c3e94456" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mage</th>
+      <th>meduc</th>
+      <th>monpre</th>
+      <th>npvis</th>
+      <th>fage</th>
+      <th>feduc</th>
+      <th>omaps</th>
+      <th>fmaps</th>
+      <th>cigs</th>
+      <th>drink</th>
+      <th>male</th>
+      <th>mwhte</th>
+      <th>mblck</th>
+      <th>moth</th>
+      <th>fwhte</th>
+      <th>fblck</th>
+      <th>foth</th>
+      <th>bwght</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>1648.000000</td>
+      <td>1623.000000</td>
+      <td>1644.000000</td>
+      <td>1592.000000</td>
+      <td>1642.000000</td>
+      <td>1611.000000</td>
+      <td>1645.000000</td>
+      <td>1645.000000</td>
+      <td>1547.000000</td>
+      <td>1543.000000</td>
+      <td>1648.000000</td>
+      <td>1648.000000</td>
+      <td>1648.000000</td>
+      <td>1648.000000</td>
+      <td>1648.000000</td>
+      <td>1648.000000</td>
+      <td>1648.000000</td>
+      <td>1648.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>29.516383</td>
+      <td>13.737523</td>
+      <td>2.131995</td>
+      <td>11.602387</td>
+      <td>31.865408</td>
+      <td>13.919305</td>
+      <td>8.386018</td>
+      <td>9.004255</td>
+      <td>1.131222</td>
+      <td>0.020091</td>
+      <td>0.516990</td>
+      <td>0.882888</td>
+      <td>0.062500</td>
+      <td>0.054612</td>
+      <td>0.885922</td>
+      <td>0.060680</td>
+      <td>0.053398</td>
+      <td>3405.564320</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>4.761434</td>
+      <td>2.092230</td>
+      <td>1.256113</td>
+      <td>3.740928</td>
+      <td>5.664027</td>
+      <td>2.261411</td>
+      <td>1.110084</td>
+      <td>0.480122</td>
+      <td>4.337803</td>
+      <td>0.299564</td>
+      <td>0.499863</td>
+      <td>0.321651</td>
+      <td>0.242135</td>
+      <td>0.227290</td>
+      <td>0.318002</td>
+      <td>0.238814</td>
+      <td>0.224894</td>
+      <td>576.118531</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>16.000000</td>
+      <td>3.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>18.000000</td>
+      <td>3.000000</td>
+      <td>0.000000</td>
+      <td>2.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>360.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>26.000000</td>
+      <td>12.000000</td>
+      <td>1.000000</td>
+      <td>10.000000</td>
+      <td>28.000000</td>
+      <td>12.000000</td>
+      <td>8.000000</td>
+      <td>9.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>3080.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>29.000000</td>
+      <td>14.000000</td>
+      <td>2.000000</td>
+      <td>12.000000</td>
+      <td>31.000000</td>
+      <td>14.000000</td>
+      <td>9.000000</td>
+      <td>9.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>3430.000000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>32.250000</td>
+      <td>16.000000</td>
+      <td>2.000000</td>
+      <td>12.250000</td>
+      <td>35.000000</td>
+      <td>16.000000</td>
+      <td>9.000000</td>
+      <td>9.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>3770.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>44.000000</td>
+      <td>17.000000</td>
+      <td>9.000000</td>
+      <td>40.000000</td>
+      <td>62.000000</td>
+      <td>17.000000</td>
+      <td>10.000000</td>
+      <td>10.000000</td>
+      <td>40.000000</td>
+      <td>8.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>5204.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-a61a0e14-9137-4bf2-858a-43b7c3e94456')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-a61a0e14-9137-4bf2-858a-43b7c3e94456 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-a61a0e14-9137-4bf2-858a-43b7c3e94456');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-ee8f3be5-6334-4194-a147-1359fb67e2a6">
+  <button class="colab-df-quickchart" onclick="quickchart('df-ee8f3be5-6334-4194-a147-1359fb67e2a6')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-ee8f3be5-6334-4194-a147-1359fb67e2a6 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<section id="checking-for-data-integrity-in-training-dataset"
+class="cell markdown" id="f96_TJXmkjjm">
+<h2>Checking for Data Integrity in Training Dataset</h2>
+<p>This section examines the integrity of the training dataset by
+assessing missing values and duplicates.</p>
+<h3 id="missing-values">Missing Values</h3>
+<p>To identify missing values, the <code>isnull()</code> function is
+applied to the <code>df_train</code> DataFrame followed by
+<code>sum()</code> to count the missing values for each column.</p>
+<h3 id="duplicates">Duplicates</h3>
+<p>The presence of duplicates in the training dataset is evaluated using
+the <code>duplicated()</code> function followed by <code>sum()</code> to
+count the duplicate entries.</p>
+</section>
+<div class="cell code" data-execution_count="7"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="rbqOdV0i6J9d" data-outputId="799125d9-1b2d-48bf-8858-9ad8c797d0c1">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check for missing values in the training dataset</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Missing Values in Training Dataset:&quot;</span>)</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_train.isnull().<span class="bu">sum</span>())</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Check for duplicates in the training dataset</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Duplicate Entries in Training Dataset:&quot;</span>)</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_train.duplicated().<span class="bu">sum</span>())</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+Missing Values in Training Dataset:
+mage        0
+meduc      25
+monpre      4
+npvis      56
+fage        6
+feduc      37
+omaps       3
+fmaps       3
+cigs      101
+drink     105
+male        0
+mwhte       0
+mblck       0
+moth        0
+fwhte       0
+fblck       0
+foth        0
+bwght       0
+dtype: int64
+
+Duplicate Entries in Training Dataset:
+0
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="ZzyMykoQkoJA">
+<h3 id="missing-values">Missing Values</h3>
+<p>The training dataset, <code>df_train</code>, is evaluated for missing
+values across its columns. The count of missing values for each feature
+is as follows:</p>
+<ul>
+<li><code>meduc</code>: 25</li>
+<li><code>monpre</code>: 4</li>
+<li><code>npvis</code>: 56</li>
+<li><code>fage</code>: 6</li>
+<li><code>feduc</code>: 37</li>
+<li><code>omaps</code>: 3</li>
+<li><code>fmaps</code>: 3</li>
+<li><code>cigs</code>: 101</li>
+<li><code>drink</code>: 105</li>
+</ul>
+<h3 id="duplicates">Duplicates</h3>
+<p>No duplicate entries are found in the training dataset.</p>
+</div>
+<section
+id="examining-categorical-variable-distribution-in-training-dataset"
+class="cell markdown" id="MTQN63PEkvPr">
+<h2>Examining Categorical Variable Distribution in Training Dataset</h2>
+<p>This section analyzes the distribution of categorical variables
+within the training dataset, <code>df_train</code>.</p>
+<h3 id="categorical-variable-distribution">Categorical Variable
+Distribution</h3>
+<p>The distribution of each categorical variable is investigated. For
+each categorical column in the dataset, the counts of unique values are
+displayed.</p>
+</section>
+<div class="cell code" data-execution_count="8"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="H21weMS36OHb" data-outputId="b3c76794-83fa-4034-d5b2-19cbc100ba43">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check the distribution of categorical variables in the training dataset</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Categorical Variable Distribution in Training Dataset: NONE&quot;</span>)</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>cat_columns_train <span class="op">=</span> df_train.select_dtypes(include<span class="op">=</span>[<span class="st">&#39;object&#39;</span>]).columns</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> cat_columns_train:</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(df_train[col].value_counts())</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+Categorical Variable Distribution in Training Dataset: NONE
+</code></pre>
+</div>
+</div>
+<section
+id="analyzing-numerical-variable-distribution-in-training-dataset"
+class="cell markdown" id="OzDUqvuyk2vj">
+<h2>Analyzing Numerical Variable Distribution in Training Dataset</h2>
+<p>This section examines the distribution of numerical variables within
+the training dataset, <code>df_train</code>.</p>
+<h3 id="numerical-variable-distribution">Numerical Variable
+Distribution</h3>
+<p>The statistical distribution of each numerical variable is
+investigated. For each numerical column in the dataset, descriptive
+statistics including count, mean, standard deviation, minimum, maximum,
+and quartile information are displayed.</p>
+</section>
+<div class="cell code" data-execution_count="9"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="_8bNrA7t615T" data-outputId="b4df2dfc-e476-4665-89dc-aa919cad12e4">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check the distribution of numerical variables in the training dataset</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Numerical Variable Distribution in Training Dataset:&quot;</span>)</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>num_columns_train <span class="op">=</span> df_train.select_dtypes(include<span class="op">=</span>[<span class="st">&#39;int64&#39;</span>, <span class="st">&#39;float64&#39;</span>]).columns</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> num_columns_train:</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(df_train[col].describe())</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+Numerical Variable Distribution in Training Dataset:
+count    1648.000000
+mean       29.516383
+std         4.761434
+min        16.000000
+25%        26.000000
+50%        29.000000
+75%        32.250000
+max        44.000000
+Name: mage, dtype: float64
+count    1623.000000
+mean       13.737523
+std         2.092230
+min         3.000000
+25%        12.000000
+50%        14.000000
+75%        16.000000
+max        17.000000
+Name: meduc, dtype: float64
+count    1644.000000
+mean        2.131995
+std         1.256113
+min         0.000000
+25%         1.000000
+50%         2.000000
+75%         2.000000
+max         9.000000
+Name: monpre, dtype: float64
+count    1592.000000
+mean       11.602387
+std         3.740928
+min         0.000000
+25%        10.000000
+50%        12.000000
+75%        12.250000
+max        40.000000
+Name: npvis, dtype: float64
+count    1642.000000
+mean       31.865408
+std         5.664027
+min        18.000000
+25%        28.000000
+50%        31.000000
+75%        35.000000
+max        62.000000
+Name: fage, dtype: float64
+count    1611.000000
+mean       13.919305
+std         2.261411
+min         3.000000
+25%        12.000000
+50%        14.000000
+75%        16.000000
+max        17.000000
+Name: feduc, dtype: float64
+count    1645.000000
+mean        8.386018
+std         1.110084
+min         0.000000
+25%         8.000000
+50%         9.000000
+75%         9.000000
+max        10.000000
+Name: omaps, dtype: float64
+count    1645.000000
+mean        9.004255
+std         0.480122
+min         2.000000
+25%         9.000000
+50%         9.000000
+75%         9.000000
+max        10.000000
+Name: fmaps, dtype: float64
+count    1547.000000
+mean        1.131222
+std         4.337803
+min         0.000000
+25%         0.000000
+50%         0.000000
+75%         0.000000
+max        40.000000
+Name: cigs, dtype: float64
+count    1543.000000
+mean        0.020091
+std         0.299564
+min         0.000000
+25%         0.000000
+50%         0.000000
+75%         0.000000
+max         8.000000
+Name: drink, dtype: float64
+count    1648.000000
+mean        0.516990
+std         0.499863
+min         0.000000
+25%         0.000000
+50%         1.000000
+75%         1.000000
+max         1.000000
+Name: male, dtype: float64
+count    1648.000000
+mean        0.882888
+std         0.321651
+min         0.000000
+25%         1.000000
+50%         1.000000
+75%         1.000000
+max         1.000000
+Name: mwhte, dtype: float64
+count    1648.000000
+mean        0.062500
+std         0.242135
+min         0.000000
+25%         0.000000
+50%         0.000000
+75%         0.000000
+max         1.000000
+Name: mblck, dtype: float64
+count    1648.000000
+mean        0.054612
+std         0.227290
+min         0.000000
+25%         0.000000
+50%         0.000000
+75%         0.000000
+max         1.000000
+Name: moth, dtype: float64
+count    1648.000000
+mean        0.885922
+std         0.318002
+min         0.000000
+25%         1.000000
+50%         1.000000
+75%         1.000000
+max         1.000000
+Name: fwhte, dtype: float64
+count    1648.000000
+mean        0.060680
+std         0.238814
+min         0.000000
+25%         0.000000
+50%         0.000000
+75%         0.000000
+max         1.000000
+Name: fblck, dtype: float64
+count    1648.000000
+mean        0.053398
+std         0.224894
+min         0.000000
+25%         0.000000
+50%         0.000000
+75%         0.000000
+max         1.000000
+Name: foth, dtype: float64
+count    1648.000000
+mean     3405.564320
+std       576.118531
+min       360.000000
+25%      3080.000000
+50%      3430.000000
+75%      3770.000000
+max      5204.000000
+Name: bwght, dtype: float64
+</code></pre>
+</div>
+</div>
+<section
+id="visualizing-numerical-variable-distribution-in-training-dataset"
+class="cell markdown" id="TGFWtbJck7qr">
+<h2>Visualizing Numerical Variable Distribution in Training Dataset</h2>
+<p>This section visually explores the distribution of numerical
+variables within the training dataset, <code>df_train</code>.</p>
+<h3 id="histograms">Histograms</h3>
+<p>Histograms with kernel density estimates (KDE) are plotted for each
+numerical variable. This visualization provides insights into the shape
+and spread of each variable's distribution.</p>
+<h3 id="interpretation">Interpretation</h3>
+<p>The histograms allow for the observation of patterns such as
+skewness, multimodality, or outliers in the numerical data. Such
+insights aid in understanding the underlying characteristics of the
+dataset.</p>
+</section>
+<div class="cell code" data-execution_count="10"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:431}"
+id="JelhEIxl698i" data-outputId="33e31dff-e1b8-412a-8a94-f7e7a2b11924">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualize the distribution of numerical variables in the training dataset</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">10</span>))  <span class="co"># Increase figure size to accommodate more subplots</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>num_cols <span class="op">=</span> <span class="bu">len</span>(num_columns_train)</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>num_rows <span class="op">=</span> (num_cols <span class="op">//</span> <span class="dv">3</span>) <span class="op">+</span> (num_cols <span class="op">%</span> <span class="dv">3</span> <span class="op">&gt;</span> <span class="dv">0</span>)  <span class="co"># Ensure enough rows to accommodate all columns</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, col <span class="kw">in</span> <span class="bu">enumerate</span>(num_columns_train, <span class="dv">1</span>):</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>    plt.subplot(num_rows, <span class="dv">4</span>, i)  <span class="co"># Adjust subplot parameters here</span></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>    sns.histplot(df_train[col], kde<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>    plt.title(col)</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="PICS/09a710ce5d83dd5dbb450ed63ee8d5df285db141.png" /></p>
+</div>
+</div>
+<section id="visualizing-correlation-matrix-of-training-dataset"
+class="cell markdown" id="f6Y8xKc4k-0-">
+<h2>Visualizing Correlation Matrix of Training Dataset</h2>
+<p>This section presents the correlation matrix heatmap of the training
+dataset, <code>df_train</code>.</p>
+<h3 id="correlation-matrix">Correlation Matrix</h3>
+<p>A heatmap is generated to display the pairwise correlation
+coefficients between numerical variables in the dataset. Each cell in
+the heatmap represents the correlation coefficient between two
+variables, with values ranging from -1 to 1.</p>
+<h3 id="interpretation">Interpretation</h3>
+<ul>
+<li>The color intensity indicates the strength and direction of the
+correlation:
+<ul>
+<li>Darker shades represent stronger correlations, either positive
+(closer to 1) or negative (closer to -1).</li>
+<li>Lighter shades signify weaker or no correlation (closer to 0).</li>
+</ul></li>
+<li>Annotations within each cell display the correlation coefficient
+values.</li>
+<li>This visualization aids in identifying relationships between
+variables, which can inform feature selection and modeling
+decisions.</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="11"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:651}"
+id="JVvbYTwB7Ahq" data-outputId="34021c34-4950-49e0-e223-d887c9e7e5d0">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualize the correlation matrix of the training dataset</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">8</span>))</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>sns.heatmap(df_train.corr(), annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">&#39;coolwarm&#39;</span>, fmt<span class="op">=</span><span class="st">&quot;.2f&quot;</span>, linewidths<span class="op">=</span><span class="fl">0.5</span>)</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Correlation Matrix (Training Dataset)&quot;</span>)</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="PICS/e2b0e6c9a14d09d534acefc64597e51ae75c38bf.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="12"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="kIf2_qTAoxO4" data-outputId="3d642e28-2bb9-41e3-bef9-61567f11c461">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Print correlation with respect to &#39;bwght&#39;</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Correlation of each feature with respect to &#39;bwght&#39;:&quot;</span>)</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_train.corr()[<span class="st">&#39;bwght&#39;</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Correlation of each feature with respect to &#39;bwght&#39;:
+mage      0.034095
+meduc     0.043649
+monpre   -0.001916
+npvis     0.102230
+fage      0.070352
+feduc     0.049134
+omaps     0.172124
+fmaps     0.174492
+cigs     -0.088653
+drink    -0.020282
+male      0.066255
+mwhte     0.054557
+mblck    -0.022207
+moth     -0.053549
+fwhte     0.065656
+fblck    -0.020196
+foth     -0.071392
+bwght     1.000000
+Name: bwght, dtype: float64
+</code></pre>
+</div>
+</div>
+<section
+id="q1-are-there-any-strong-positive-or-strong-negative-linear-pearson-correlations-with-birthweight-answer-this-question-based-on-the-original-continuous-form-of-birthweight-minimum-5-sentences"
+class="cell markdown" id="9e497zMvpDdh">
+<h3><strong>Q1) Are there any strong positive or strong negative linear
+(Pearson) correlations with birthweight? Answer this question based on
+the original, continuous form of birthweight. (minimum 5
+sentences)</strong></h3>
+<p>Based on the correlation coefficients with respect to the original,
+continuous form of birthweight, there are several features exhibiting
+strong positive or strong negative linear (Pearson) correlations:</p>
+<p>Strong Positive Correlations:</p>
+<ol>
+<li>'omaps' (0.172): This indicates a moderate positive correlation,
+suggesting that higher maternal prepregnancy weight is associated with
+higher birthweight.</li>
+<li>'fmaps' (0.174): Similar to 'omaps', this variable also shows a
+moderate positive correlation, indicating that higher paternal
+prepregnancy weight is associated with higher birthweight.</li>
+</ol>
+<p>Strong Negative Correlations:</p>
+<ol>
+<li>'cigs' (-0.089): This suggests a moderate negative correlation,
+indicating that higher maternal cigarette usage during pregnancy is
+associated with lower birthweight.</li>
+<li>'foth' (-0.071): This variable also exhibits a moderate negative
+correlation, suggesting that higher paternal age is associated with
+lower birthweight.</li>
+</ol>
+<p>It's important to note that while these correlations are significant,
+they may not imply causation. Other factors not included in the dataset
+could also influence birthweight. Additionally, the magnitude of
+correlations should be interpreted in the context of specific domain
+knowledge and potential confounding variables. Further analysis, such as
+regression modeling or considering interaction effects, may provide
+additional insights into the relationships between these variables and
+birthweight.</p>
+</section>
+<section id="data-transfromation" class="cell markdown"
+id="3yXLMJselBbX">
+<h1><strong>DATA TRANSFROMATION</strong></h1>
+</section>
+<section id="imputing-missing-values-for-continuous-features"
+class="cell markdown" id="vLMXQrPSlFdM">
+<h2>Imputing Missing Values for Continuous Features</h2>
+<p>This section performs imputation for missing values in continuous
+features within the training dataset, <code>df_train</code>.</p>
+<h3 id="imputation-method">Imputation Method</h3>
+<ul>
+<li>For each continuous feature (numeric), missing values are imputed
+using the mean of the respective column.</li>
+<li>The <code>fillna()</code> method is applied to replace missing
+values with the mean value of the corresponding column.</li>
+</ul>
+<h3 id="implementation">Implementation</h3>
+<p>The imputation process is executed using a loop over continuous
+features identified by their numeric data type.</p>
+</section>
+<div class="cell code" data-execution_count="13" id="W5eHnM7OAfde">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Impute missing values for continuous features</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> df_train.select_dtypes(include<span class="op">=</span>np.number).columns:</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>    df_train[col].fillna(df_train[col].mean(), inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="14"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="hcyijMaYAyEZ" data-outputId="4b8cf4a3-0652-4fdf-bc41-80fac9716441">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check for missing values in the training dataset</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Missing Values in Training Dataset:&quot;</span>)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_train.isnull().<span class="bu">sum</span>())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+Missing Values in Training Dataset:
+mage      0
+meduc     0
+monpre    0
+npvis     0
+fage      0
+feduc     0
+omaps     0
+fmaps     0
+cigs      0
+drink     0
+male      0
+mwhte     0
+mblck     0
+moth      0
+fwhte     0
+fblck     0
+foth      0
+bwght     0
+dtype: int64
+</code></pre>
+</div>
+</div>
+<section id="feature-engineering" class="cell markdown"
+id="mFh6cYo0lH3F">
+<h1><strong>FEATURE ENGINEERING</strong></h1>
+</section>
+<section id="feature-engineering" class="cell markdown"
+id="QtmR_cxvlOvP">
+<h2>Feature Engineering</h2>
+<p>This section involves the creation of new features based on domain
+knowledge and insights gained from the dataset. The following feature
+engineering steps are implemented on the training dataset,
+<code>df_train</code>.</p>
+<h3 id="1-maternal-health-feature">1. Maternal Health Feature</h3>
+<ul>
+<li>A new feature <code>maternal_health</code> is created to indicate
+maternal health status based on the consumption of alcohol
+(<code>drink</code>) or cigarettes (<code>cigs</code>).</li>
+<li>If the number of drinks is greater than 2 or the number of
+cigarettes is greater than 9, <code>maternal_health</code> is set to 1;
+otherwise, it's set to 0.</li>
+</ul>
+<h3 id="2-prenatal-care-quality-feature">2. Prenatal Care Quality
+Feature</h3>
+<ul>
+<li>The feature <code>precare_quality</code> is generated to assess the
+quality of prenatal care based on the number of prenatal visits
+(<code>npvis</code>).</li>
+<li>If the number of prenatal visits is 8 or more,
+<code>precare_quality</code> is set to 1; otherwise, it's set to 0.</li>
+</ul>
+<h3 id="3-low-birth-weight-indicator">3. Low Birth Weight Indicator</h3>
+<ul>
+<li>An indicator <code>is_low_bwght</code> is created to identify low
+birth weight babies, defined as those with birth weight
+(<code>bwght</code>) less than 2500 grams.</li>
+<li>If the birth weight is less than 2500 grams,
+<code>is_low_bwght</code> is set to 1; otherwise, it's set to 0.</li>
+</ul>
+<h3 id="4-prenatal-nutrition-index">4. Prenatal Nutrition Index</h3>
+<ul>
+<li>A new feature <code>prenatal_nutrition_index</code> is introduced as
+an index of prenatal nutrition awareness, combining father's education
+(<code>feduc</code>) and mother's education (<code>meduc</code>).</li>
+<li>The index is calculated as the average of father's and mother's
+education levels.</li>
+</ul>
+<h3 id="5-stress-indicator">5. Stress Indicator</h3>
+<ul>
+<li>The <code>stress_indicator</code> feature is created to indicate
+potential stress during pregnancy based on maternal age
+(<code>mage</code>) and prenatal care quality
+(<code>precare_quality</code>).</li>
+<li>If the mother's age is below 20 or the prenatal care quality is low,
+<code>stress_indicator</code> is set to 1; otherwise, it's set to
+0.</li>
+</ul>
+</section>
+<section
+id="q2-is-there-an-official-threshold-that-signifies-when-birthweight-gets-more-dangerous-in-other-words-is-there-a-cutoff-point-between-a-healthy-birthweight-and-a-non-healthy-birthweight-provide-credible-sources-as-necessary-minimum-5-sentences"
+class="cell markdown" id="aKuvVXoMnk3O">
+<h3><strong>Q2) Is there an official threshold that signifies when
+birthweight gets more dangerous? In other words, is there a cutoff point
+between a healthy birthweight and a non-healthy birthweight? Provide
+credible sources as necessary. (minimum 5 sentences)</strong></h3>
+<p>ANS : Categories of Birthweight</p>
+<p>Low Birth Weight (LBW): Babies weighing less than 2500 grams (5.5
+pounds) at birth. This is a significant threshold as health risks
+increase for these infants. Very Low Birth Weight (VLBW): Babies
+weighing less than 1500 grams (3.3 pounds) at birth. These infants face
+higher risks of complications. Extremely Low Birth Weight (ELBW): Babies
+weighing less than 1000 grams (2.2 pounds) at birth. These infants have
+the highest risk of complications and require specialized care.
+Important Note: These are general guidelines, and an infant's overall
+health is determined by multiple factors, not solely by birth
+weight.</p>
+<p>Sources:</p>
+<p>World Health Organization (WHO): Low Birth Weight: <a
+href="https://www.who.int/data/nutrition/nlis/info/low-birth-weight"
+class="uri">https://www.who.int/data/nutrition/nlis/info/low-birth-weight</a>
+March of Dimes: Premature Babies: <a
+href="https://www.marchofdimes.org/"
+class="uri">https://www.marchofdimes.org/</a> Centers for Disease
+Control and Prevention (CDC): Birthweight and Gestational Age: <a
+href="https://www.cdc.gov/pcd/issues/2013/12_0336.htm"
+class="uri">https://www.cdc.gov/pcd/issues/2013/12_0336.htm</a>)</p>
+</section>
+<div class="cell code" data-execution_count="15" id="ESAnFZZ-BM_F">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Feature engineering</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>df_train[<span class="st">&#39;maternal_health&#39;</span>] <span class="op">=</span> np.where((df_train[<span class="st">&#39;drink&#39;</span>] <span class="op">&gt;</span> <span class="dv">2</span>) <span class="op">|</span> (df_train[<span class="st">&#39;cigs&#39;</span>] <span class="op">&gt;</span> <span class="dv">9</span>), <span class="dv">1</span>, <span class="dv">0</span>)</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>df_train[<span class="st">&#39;precare_quality&#39;</span>] <span class="op">=</span> np.where(df_train[<span class="st">&#39;npvis&#39;</span>] <span class="op">&gt;=</span> <span class="dv">8</span>, <span class="dv">1</span>, <span class="dv">0</span>)</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>df_train[<span class="st">&#39;is_low_bwght&#39;</span>] <span class="op">=</span> (df_train[<span class="st">&#39;bwght&#39;</span>] <span class="op">&lt;</span> <span class="dv">2500</span>).astype(<span class="bu">int</span>)</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a><span class="co">#  &#39;feduc&#39; (father&#39;s education) and &#39;meduc&#39; (mother&#39;s education) could serve as proxies for awareness about prenatal nutrition</span></span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>df_train[<span class="st">&#39;prenatal_nutrition_index&#39;</span>] <span class="op">=</span> (df_train[<span class="st">&#39;feduc&#39;</span>] <span class="op">+</span> df_train[<span class="st">&#39;meduc&#39;</span>]) <span class="op">/</span> <span class="dv">2</span></span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a><span class="co"># younger mothers (below 20) and lower prenatal care might indicate higher stress</span></span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>df_train[<span class="st">&#39;stress_indicator&#39;</span>] <span class="op">=</span> ((df_train[<span class="st">&#39;mage&#39;</span>] <span class="op">&lt;</span> <span class="dv">20</span>) <span class="op">|</span> (df_train[<span class="st">&#39;precare_quality&#39;</span>] <span class="op">==</span> <span class="dv">0</span>)).astype(<span class="bu">int</span>)</span></code></pre></div>
+</div>
+<section id="log-transformation-for-numerical-columns"
+class="cell markdown" id="9YYnxuZjlSC9">
+<h2>Log Transformation for Numerical Columns</h2>
+<p>This section implements log transformation for numerical columns in
+the training dataset, <code>df_train</code>, excluding the target
+variable <code>bwght</code>.</p>
+<h3 id="transformation-process">Transformation Process</h3>
+<ul>
+<li>For each numerical column (excluding <code>bwght</code>), a new
+feature is created with the prefix <code>log_</code> followed by the
+original column name.</li>
+<li>Logarithmic transformation using <code>np.log1p()</code> is applied
+to the values of each column.</li>
+</ul>
+<h3 id="purpose">Purpose</h3>
+<ul>
+<li>Logarithmic transformation is often used to handle skewed
+distributions and reduce the impact of outliers, making the data more
+suitable for modeling.</li>
+<li>Transforming the features in this manner can improve the performance
+of machine learning algorithms that assume normality or linear
+relationships among variables.</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="16" id="YwZKWW6m96b6">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Log transformation for numerical columns</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> df_train:</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> col <span class="op">!=</span> <span class="st">&#39;bwght&#39;</span>:</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>        df_train[<span class="ss">f&quot;log_</span><span class="sc">{</span>col<span class="sc">}</span><span class="ss">&quot;</span>] <span class="op">=</span> np.log1p(df_train[col])</span></code></pre></div>
+</div>
+<section id="analyzing-correlation-with-target-variable-bwght"
+class="cell markdown" id="dOjLPZuHldEJ">
+<h2>Analyzing Correlation with Target Variable 'bwght'</h2>
+<p>This section involves examining the correlation between each feature
+and the target variable 'bwght' within the training dataset.</p>
+<h3 id="correlation-calculation">Correlation Calculation</h3>
+<ul>
+<li>For each column in the training dataset (excluding 'bwght'), the
+Pearson correlation coefficient with 'bwght' is computed.</li>
+<li>The absolute correlation values are utilized to sort the correlation
+table in descending order, facilitating easy identification of features
+with the strongest associations.</li>
+</ul>
+<h3 id="correlation-table">Correlation Table</h3>
+<ul>
+<li>The resulting correlation table displays each feature along with its
+correlation coefficient with 'bwght'.</li>
+<li>Features are sorted based on the magnitude of their correlation
+coefficients, revealing the strongest positive and negative correlations
+with the target variable.</li>
+</ul>
+<h3 id="insights">Insights</h3>
+<ul>
+<li>High absolute correlation coefficients indicate features that
+potentially influence birth weight significantly.</li>
+<li>Understanding these correlations assists in feature selection and
+model building processes, ensuring relevant and impactful features are
+included in predictive models.</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="17"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="34mPTdk499pi" data-outputId="55382454-6911-4f82-e8a8-feb368975554">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tabulate <span class="im">import</span> tabulate</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate correlation with &#39;bwght&#39;</span></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>correlation_table <span class="op">=</span> []</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> df_train.columns:</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> col <span class="op">!=</span> <span class="st">&#39;bwght&#39;</span>:</span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>        corr <span class="op">=</span> df_train[<span class="st">&#39;bwght&#39;</span>].corr(df_train[col])</span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>        correlation_table.append([col, corr])</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort correlation table by absolute correlation value</span></span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a>correlation_table.sort(key<span class="op">=</span><span class="kw">lambda</span> x: <span class="bu">abs</span>(x[<span class="dv">1</span>]), reverse<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Print correlation table</span></span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(tabulate(correlation_table, headers<span class="op">=</span>[<span class="st">&#39;Column&#39;</span>, <span class="st">&#39;Correlation with bwght&#39;</span>], tablefmt<span class="op">=</span><span class="st">&#39;grid&#39;</span>))</span>
+<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-16"><a href="#cb24-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-17"><a href="#cb24-17" aria-hidden="true" tabindex="-1"></a><span class="co"># is_low_bwght,stress_indicator,maternal_health,prenatal_nutrition_index,fmaps,log_omaps,log_npvis,log_cigs,log_fage,foth,male,fwhte,mwhte,moth,feduc,log_mage,meduc,mblck,drink,fblck,log_monpre</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>+------------------------------+--------------------------+
+| Column                       |   Correlation with bwght |
++==============================+==========================+
+| is_low_bwght                 |              -0.560988   |
++------------------------------+--------------------------+
+| log_is_low_bwght             |              -0.560988   |
++------------------------------+--------------------------+
+| log_omaps                    |               0.17244    |
++------------------------------+--------------------------+
+| fmaps                        |               0.171803   |
++------------------------------+--------------------------+
+| log_fmaps                    |               0.17157    |
++------------------------------+--------------------------+
+| omaps                        |               0.169471   |
++------------------------------+--------------------------+
+| log_stress_indicator         |              -0.136303   |
++------------------------------+--------------------------+
+| stress_indicator             |              -0.136303   |
++------------------------------+--------------------------+
+| log_precare_quality          |               0.12651    |
++------------------------------+--------------------------+
+| precare_quality              |               0.12651    |
++------------------------------+--------------------------+
+| log_npvis                    |               0.107615   |
++------------------------------+--------------------------+
+| log_cigs                     |              -0.107614   |
++------------------------------+--------------------------+
+| npvis                        |               0.101011   |
++------------------------------+--------------------------+
+| cigs                         |              -0.0853416  |
++------------------------------+--------------------------+
+| maternal_health              |              -0.0760733  |
++------------------------------+--------------------------+
+| log_maternal_health          |              -0.0760733  |
++------------------------------+--------------------------+
+| log_fage                     |               0.075113   |
++------------------------------+--------------------------+
+| foth                         |              -0.0713919  |
++------------------------------+--------------------------+
+| log_foth                     |              -0.0713919  |
++------------------------------+--------------------------+
+| fage                         |               0.0701377  |
++------------------------------+--------------------------+
+| male                         |               0.0662555  |
++------------------------------+--------------------------+
+| log_male                     |               0.0662555  |
++------------------------------+--------------------------+
+| fwhte                        |               0.0656558  |
++------------------------------+--------------------------+
+| log_fwhte                    |               0.0656558  |
++------------------------------+--------------------------+
+| mwhte                        |               0.0545567  |
++------------------------------+--------------------------+
+| log_mwhte                    |               0.0545567  |
++------------------------------+--------------------------+
+| moth                         |              -0.053549   |
++------------------------------+--------------------------+
+| log_moth                     |              -0.053549   |
++------------------------------+--------------------------+
+| prenatal_nutrition_index     |               0.0510786  |
++------------------------------+--------------------------+
+| feduc                        |               0.0480261  |
++------------------------------+--------------------------+
+| log_feduc                    |               0.0446123  |
++------------------------------+--------------------------+
+| log_mage                     |               0.0438572  |
++------------------------------+--------------------------+
+| log_prenatal_nutrition_index |               0.043382   |
++------------------------------+--------------------------+
+| meduc                        |               0.0429246  |
++------------------------------+--------------------------+
+| mage                         |               0.0340947  |
++------------------------------+--------------------------+
+| log_meduc                    |               0.0316817  |
++------------------------------+--------------------------+
+| log_mblck                    |              -0.0222069  |
++------------------------------+--------------------------+
+| mblck                        |              -0.0222069  |
++------------------------------+--------------------------+
+| log_drink                    |              -0.0213587  |
++------------------------------+--------------------------+
+| fblck                        |              -0.0201958  |
++------------------------------+--------------------------+
+| log_fblck                    |              -0.0201958  |
++------------------------------+--------------------------+
+| drink                        |              -0.0195482  |
++------------------------------+--------------------------+
+| log_monpre                   |               0.00326967 |
++------------------------------+--------------------------+
+| monpre                       |              -0.00191527 |
++------------------------------+--------------------------+
+</code></pre>
+</div>
+</div>
+<section
+id="q3-after-transforming-birthweight-bwght-using-this-threshold-did-correlations-andor-phi-coefficients-improve-why-or-why-not-minimum-5-sentences"
+class="cell markdown" id="-EoWkdBulz1Y">
+<h3><strong>Q3 After transforming birthweight (bwght) using this
+threshold, did correlations and/or phi coefficients improve? Why or why
+not? (minimum 5 sentences)</strong></h3>
+</section>
+<div class="cell markdown" id="vofP1zp9lsPn">
+<h3
+id="analysis-of-selected-features-based-on-correlation-with-bwght">Analysis
+of Selected Features Based on Correlation with 'bwght'</h3>
+<p>The selection of features for modeling is crucial to ensure the
+predictive power and interpretability of the resulting model. Here's a
+detailed analysis of the selected features based on their correlation
+with the target variable 'bwght':</p>
+<ol>
+<li><strong>Highly Correlated Features:</strong>
+<ul>
+<li><strong>is_low_bwght (Logarithmic Transformation)</strong>: Strong
+negative correlation (-0.561) with 'bwght', indicating a significant
+impact on birth weight. Logarithmic transformation retains the same
+correlation magnitude.</li>
+<li><strong>log_omaps, fmaps, log_fmaps, omaps</strong>: These features
+exhibit moderate positive correlations ranging from 0.169 to 0.172 with
+'bwght', suggesting a potential influence on birth weight.</li>
+<li><strong>stress_indicator</strong>: Logarithmic transformation
+(-0.136) and original feature (-0.136) exhibit moderate negative
+correlations with 'bwght', indicating an association with lower birth
+weight.</li>
+</ul></li>
+<li><strong>Moderately Correlated Features:</strong>
+<ul>
+<li><strong>precare_quality (Logarithmic Transformation), log_npvis,
+log_cigs, npvis, cigs</strong>: These features demonstrate correlations
+ranging from 0.101 to -0.085 with 'bwght', suggesting a moderate
+association with birth weight.</li>
+<li><strong>maternal_health (Logarithmic Transformation)</strong>:
+Logarithmic transformation (-0.076) and original feature (-0.076)
+exhibit moderate negative correlations with 'bwght', indicating a
+potential impact on birth weight.</li>
+</ul></li>
+<li><strong>Weakly Correlated Features:</strong>
+<ul>
+<li><strong>Other Features</strong>: Various other features exhibit weak
+correlations (absolute correlation values &lt; 0.1) with 'bwght',
+suggesting minimal influence on birth weight.</li>
+</ul></li>
+</ol>
+<h3 id="insights">Insights:</h3>
+<ul>
+<li>Features with higher absolute correlation coefficients tend to have
+a more pronounced impact on birth weight.</li>
+<li>Logarithmic transformations of some features maintain or slightly
+alter their correlation magnitudes with 'bwght'.</li>
+<li>Prioritizing highly correlated features like 'is_low_bwght' and
+'log_omaps' can enhance the predictive performance of models while
+ensuring interpretability.</li>
+</ul>
+<p>The 'is_low_bwght' feature appears to have a strong negative
+correlation (-0.561) with the original birth weight, indicating that
+lower birth weights are associated with the feature being true. However,
+after applying the logarithmic transformation to this feature
+('log_is_low_bwght'), the correlation remains the same, suggesting that
+the transformation did not significantly alter the relationship between
+low birth weight and the feature. It's important to note that
+correlations and phi coefficients may not always improve after
+transformation if the transformation does not effectively capture or
+represent the underlying relationships in the data. Therefore, further
+analysis and evaluation of the transformation's effectiveness in
+capturing low birth weight patterns are necessary to determine its
+impact on correlations and phi coefficients.</p>
+</div>
+<div class="cell code" data-execution_count="18" id="ErVanuAQ_fXZ">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>selected_columns <span class="op">=</span> [<span class="st">&#39;is_low_bwght&#39;</span>,<span class="st">&#39;stress_indicator&#39;</span>,<span class="st">&#39;maternal_health&#39;</span>,<span class="st">&#39;prenatal_nutrition_index&#39;</span>,<span class="st">&#39;fmaps&#39;</span>, <span class="st">&#39;log_omaps&#39;</span>, <span class="st">&#39;log_npvis&#39;</span>, <span class="st">&#39;log_cigs&#39;</span>, <span class="st">&#39;log_fage&#39;</span>, <span class="st">&#39;foth&#39;</span>, <span class="st">&#39;male&#39;</span>, <span class="st">&#39;fwhte&#39;</span>,</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;mwhte&#39;</span>, <span class="st">&#39;moth&#39;</span>, <span class="st">&#39;feduc&#39;</span>, <span class="st">&#39;log_mage&#39;</span>, <span class="st">&#39;meduc&#39;</span>, <span class="st">&#39;mblck&#39;</span>, <span class="st">&#39;drink&#39;</span>, <span class="st">&#39;fblck&#39;</span>, <span class="st">&#39;log_monpre&#39;</span>,<span class="st">&#39;bwght&#39;</span>]</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>df_train <span class="op">=</span> df_train[selected_columns]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="19"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="w-VLOhqv_jis" data-outputId="2e8107e2-0f69-40ba-8ba8-ae7eabc183fa">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>df_train.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+Index: 1648 entries, id_0001 to id_1832
+Data columns (total 22 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   is_low_bwght              1648 non-null   int64  
+ 1   stress_indicator          1648 non-null   int64  
+ 2   maternal_health           1648 non-null   int64  
+ 3   prenatal_nutrition_index  1648 non-null   float64
+ 4   fmaps                     1648 non-null   float64
+ 5   log_omaps                 1648 non-null   float64
+ 6   log_npvis                 1648 non-null   float64
+ 7   log_cigs                  1648 non-null   float64
+ 8   log_fage                  1648 non-null   float64
+ 9   foth                      1648 non-null   int64  
+ 10  male                      1648 non-null   int64  
+ 11  fwhte                     1648 non-null   int64  
+ 12  mwhte                     1648 non-null   int64  
+ 13  moth                      1648 non-null   int64  
+ 14  feduc                     1648 non-null   float64
+ 15  log_mage                  1648 non-null   float64
+ 16  meduc                     1648 non-null   float64
+ 17  mblck                     1648 non-null   int64  
+ 18  drink                     1648 non-null   float64
+ 19  fblck                     1648 non-null   int64  
+ 20  log_monpre                1648 non-null   float64
+ 21  bwght                     1648 non-null   int64  
+dtypes: float64(11), int64(11)
+memory usage: 296.1+ KB
+</code></pre>
+</div>
+</div>
+<section id="modeling-low-birth-weight-prediction" class="cell markdown"
+id="sDGax6b7mP_a">
+<h1><strong>Modeling Low Birth Weight Prediction</strong></h1>
+<p>This section focuses on predicting low birth weight using machine
+learning models. Here's a detailed summary of the steps involved:</p>
+<h3 id="feature-selection">Feature Selection</h3>
+<ul>
+<li>Features are carefully chosen based on their correlation with the
+target variable 'is_low_bwght' and domain knowledge.</li>
+<li>Selected features include 'stress_indicator', 'maternal_health',
+'prenatal_nutrition_index', 'fmaps', 'log_omaps', 'log_npvis',
+'log_cigs', 'log_fage', 'foth', 'male', 'fwhte', 'mwhte', 'moth',
+'feduc', 'log_mage', 'meduc', 'mblck', 'drink', 'fblck', and
+'log_monpre'.</li>
+</ul>
+<h3 id="data-preparation">Data Preparation</h3>
+<ul>
+<li>The dataset is filtered to include only selected features.</li>
+<li>A new column 'dataset' is added to differentiate between training
+and validation datasets.</li>
+<li>The combined dataset is prepared for further processing.</li>
+</ul>
+<h3 id="model-training-and-evaluation">Model Training and
+Evaluation</h3>
+<ul>
+<li>A variety of classification models are trained and evaluated for
+predicting low birth weight.</li>
+<li>Models include Logistic Regression, Ridge Classification, K-Nearest
+Neighbors, Decision Tree, Random Forest, and Gradient Boosting.</li>
+<li>Performance metrics such as Accuracy, Precision, and Recall are
+computed for each model using validation data.</li>
+<li>Results are stored in a DataFrame and sorted by Accuracy, Precision,
+Recall, and F1 Score for comparison.</li>
+</ul>
+<h3 id="insights">Insights</h3>
+<ul>
+<li>The choice of features is crucial for model performance and
+interpretability.</li>
+<li>Model selection involves experimenting with various algorithms to
+identify the one that best fits the problem at hand.</li>
+<li>Performance metrics provide insights into the effectiveness of each
+model in predicting low birth weight, guiding further model refinement
+and deployment.</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="20"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:493}"
+id="xzWb8TjyPI-D" data-outputId="be59172c-ab1a-4908-a679-59714fe4d114">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine datasets for feature engineering</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>df_train[<span class="st">&#39;dataset&#39;</span>] <span class="op">=</span> <span class="st">&#39;Training&#39;</span></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>combined_data <span class="op">=</span> df_train</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Preparing data for modeling</span></span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>features <span class="op">=</span> [<span class="st">&#39;stress_indicator&#39;</span>,<span class="st">&#39;maternal_health&#39;</span>,<span class="st">&#39;prenatal_nutrition_index&#39;</span>,<span class="st">&#39;fmaps&#39;</span>, <span class="st">&#39;log_omaps&#39;</span>, <span class="st">&#39;log_npvis&#39;</span>, <span class="st">&#39;log_cigs&#39;</span>, <span class="st">&#39;log_fage&#39;</span>, <span class="st">&#39;foth&#39;</span>, <span class="st">&#39;male&#39;</span>, <span class="st">&#39;fwhte&#39;</span>,</span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;mwhte&#39;</span>, <span class="st">&#39;moth&#39;</span>, <span class="st">&#39;feduc&#39;</span>, <span class="st">&#39;log_mage&#39;</span>, <span class="st">&#39;meduc&#39;</span>, <span class="st">&#39;mblck&#39;</span>, <span class="st">&#39;drink&#39;</span>, <span class="st">&#39;fblck&#39;</span>, <span class="st">&#39;log_monpre&#39;</span>]</span>
+<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-13"><a href="#cb29-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-14"><a href="#cb29-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-15"><a href="#cb29-15" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> combined_data[combined_data[<span class="st">&#39;dataset&#39;</span>] <span class="op">==</span> <span class="st">&#39;Training&#39;</span>][features]</span>
+<span id="cb29-16"><a href="#cb29-16" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> combined_data[combined_data[<span class="st">&#39;dataset&#39;</span>] <span class="op">==</span> <span class="st">&#39;Training&#39;</span>][<span class="st">&#39;is_low_bwght&#39;</span>]</span>
+<span id="cb29-17"><a href="#cb29-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-18"><a href="#cb29-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Splitting dataset</span></span>
+<span id="cb29-19"><a href="#cb29-19" aria-hidden="true" tabindex="-1"></a>X_train, X_val, y_train, y_val <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.3</span>, random_state<span class="op">=</span><span class="dv">100</span>)</span>
+<span id="cb29-20"><a href="#cb29-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-21"><a href="#cb29-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Model training and evaluation</span></span>
+<span id="cb29-22"><a href="#cb29-22" aria-hidden="true" tabindex="-1"></a>models <span class="op">=</span> {</span>
+<span id="cb29-23"><a href="#cb29-23" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Logistic Regression&#39;</span>: LogisticRegression(),</span>
+<span id="cb29-24"><a href="#cb29-24" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Ridge Classification&#39;</span>: RidgeClassifier(),</span>
+<span id="cb29-25"><a href="#cb29-25" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;K-Nearest Neighbors&#39;</span>: KNeighborsClassifier(),</span>
+<span id="cb29-26"><a href="#cb29-26" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Decision Tree&#39;</span>: DecisionTreeClassifier(),</span>
+<span id="cb29-27"><a href="#cb29-27" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Random Forest&#39;</span>: RandomForestClassifier(),</span>
+<span id="cb29-28"><a href="#cb29-28" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Gradient Boosting&#39;</span>: GradientBoostingClassifier()</span>
+<span id="cb29-29"><a href="#cb29-29" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb29-30"><a href="#cb29-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-31"><a href="#cb29-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Prepare a dataframe to store results</span></span>
+<span id="cb29-32"><a href="#cb29-32" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> []</span>
+<span id="cb29-33"><a href="#cb29-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-34"><a href="#cb29-34" aria-hidden="true" tabindex="-1"></a><span class="co"># Training and evaluation</span></span>
+<span id="cb29-35"><a href="#cb29-35" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> name, model <span class="kw">in</span> models.items():</span>
+<span id="cb29-36"><a href="#cb29-36" aria-hidden="true" tabindex="-1"></a>    model.fit(X_train, y_train)</span>
+<span id="cb29-37"><a href="#cb29-37" aria-hidden="true" tabindex="-1"></a>    y_pred <span class="op">=</span> model.predict(X_val)</span>
+<span id="cb29-38"><a href="#cb29-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-39"><a href="#cb29-39" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Store results</span></span>
+<span id="cb29-40"><a href="#cb29-40" aria-hidden="true" tabindex="-1"></a>    results.append({</span>
+<span id="cb29-41"><a href="#cb29-41" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;Model&#39;</span>: name,</span>
+<span id="cb29-42"><a href="#cb29-42" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;Accuracy&#39;</span>: accuracy_score(y_val, y_pred),</span>
+<span id="cb29-43"><a href="#cb29-43" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;Precision&#39;</span>: precision_score(y_val, y_pred),</span>
+<span id="cb29-44"><a href="#cb29-44" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;Recall&#39;</span>: recall_score(y_val, y_pred),</span>
+<span id="cb29-45"><a href="#cb29-45" aria-hidden="true" tabindex="-1"></a>    })</span>
+<span id="cb29-46"><a href="#cb29-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-47"><a href="#cb29-47" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert results into a DataFrame and sort by Accuracy, Precision, Recall, and F1 Score</span></span>
+<span id="cb29-48"><a href="#cb29-48" aria-hidden="true" tabindex="-1"></a>results_df <span class="op">=</span> pd.DataFrame(results).sort_values(by<span class="op">=</span>[<span class="st">&#39;Accuracy&#39;</span>, <span class="st">&#39;Precision&#39;</span>, <span class="st">&#39;Recall&#39;</span>], ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb29-49"><a href="#cb29-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-50"><a href="#cb29-50" aria-hidden="true" tabindex="-1"></a>results_df</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-20-45796df66469&gt;:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_train[&#39;dataset&#39;] = &#39;Training&#39;
+/usr/local/lib/python3.10/dist-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="20">
+
+  <div id="df-d3f15ef2-7794-4568-817f-b1a86d0c465b" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Model</th>
+      <th>Accuracy</th>
+      <th>Precision</th>
+      <th>Recall</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>4</th>
+      <td>Random Forest</td>
+      <td>0.949495</td>
+      <td>0.333333</td>
+      <td>0.041667</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>K-Nearest Neighbors</td>
+      <td>0.949495</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>Logistic Regression</td>
+      <td>0.947475</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Ridge Classification</td>
+      <td>0.947475</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Gradient Boosting</td>
+      <td>0.945455</td>
+      <td>0.200000</td>
+      <td>0.041667</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Decision Tree</td>
+      <td>0.905051</td>
+      <td>0.103448</td>
+      <td>0.125000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-d3f15ef2-7794-4568-817f-b1a86d0c465b')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-d3f15ef2-7794-4568-817f-b1a86d0c465b button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-d3f15ef2-7794-4568-817f-b1a86d0c465b');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-2e7cebef-1804-4f43-abe5-55ddb5648cb9">
+  <button class="colab-df-quickchart" onclick="quickchart('df-2e7cebef-1804-4f43-abe5-55ddb5648cb9')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-2e7cebef-1804-4f43-abe5-55ddb5648cb9 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+  <div id="id_172026b0-c78b-4376-ad10-5410835fbb9a">
+    <style>
+      .colab-df-generate {
+        background-color: #E8F0FE;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        display: none;
+        fill: #1967D2;
+        height: 32px;
+        padding: 0 0 0 0;
+        width: 32px;
+      }
+
+      .colab-df-generate:hover {
+        background-color: #E2EBFA;
+        box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+        fill: #174EA6;
+      }
+
+      [theme=dark] .colab-df-generate {
+        background-color: #3B4455;
+        fill: #D2E3FC;
+      }
+
+      [theme=dark] .colab-df-generate:hover {
+        background-color: #434B5C;
+        box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+        filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+        fill: #FFFFFF;
+      }
+    </style>
+    <button class="colab-df-generate" onclick="generateWithVariable('results_df')"
+            title="Generate code using this dataframe."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M7,19H8.4L18.45,9,17,7.55,7,17.6ZM5,21V16.75L18.45,3.32a2,2,0,0,1,2.83,0l1.4,1.43a1.91,1.91,0,0,1,.58,1.4,1.91,1.91,0,0,1-.58,1.4L9.25,21ZM18.45,9,17,7.55Zm-12,3A5.31,5.31,0,0,0,4.9,8.1,5.31,5.31,0,0,0,1,6.5,5.31,5.31,0,0,0,4.9,4.9,5.31,5.31,0,0,0,6.5,1,5.31,5.31,0,0,0,8.1,4.9,5.31,5.31,0,0,0,12,6.5,5.46,5.46,0,0,0,6.5,12Z"/>
+  </svg>
+    </button>
+    <script>
+      (() => {
+      const buttonEl =
+        document.querySelector('#id_172026b0-c78b-4376-ad10-5410835fbb9a button.colab-df-generate');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      buttonEl.onclick = () => {
+        google.colab.notebook.generateWithVariable('results_df');
+      }
+      })();
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<section id="model-performance-summary" class="cell markdown"
+id="pLGKpLS2mV8t">
+<h2>Model Performance Summary</h2>
+<p>Here's a summary of the performance metrics for different
+classification models in predicting low birth weight:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Model</th>
+<th>Accuracy</th>
+<th>Precision</th>
+<th>Recall</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Random Forest</td>
+<td>0.949</td>
+<td>0.333</td>
+<td>0.042</td>
+</tr>
+<tr class="even">
+<td>K-Nearest Neighbors</td>
+<td>0.949</td>
+<td>0.000</td>
+<td>0.000</td>
+</tr>
+<tr class="odd">
+<td>Logistic Regression</td>
+<td>0.947</td>
+<td>0.000</td>
+<td>0.000</td>
+</tr>
+<tr class="even">
+<td>Ridge Classification</td>
+<td>0.947</td>
+<td>0.000</td>
+<td>0.000</td>
+</tr>
+<tr class="odd">
+<td>Gradient Boosting</td>
+<td>0.943</td>
+<td>0.167</td>
+<td>0.042</td>
+</tr>
+<tr class="even">
+<td>Decision Tree</td>
+<td>0.897</td>
+<td>0.034</td>
+<td>0.042</td>
+</tr>
+</tbody>
+</table>
+<h3 id="insights">Insights:</h3>
+<ul>
+<li>Random Forest and K-Nearest Neighbors achieved the highest accuracy
+of 0.949.</li>
+<li>Random Forest also demonstrated the highest precision (0.333),
+indicating its ability to correctly identify low birth weight
+cases.</li>
+<li>However, all models show relatively low recall values, suggesting
+that they struggle to capture all instances of low birth weight, as
+indicated by the low recall values (ranging from 0.0 to 0.042).</li>
+<li>Decision Tree exhibited the lowest overall performance among the
+models, with the lowest precision and recall values.</li>
+</ul>
+<h3 id="recommendations">Recommendations:</h3>
+<ul>
+<li>Despite high accuracy, models need improvement in recall to better
+capture low birth weight cases.</li>
+<li>Further refinement of feature selection and parameter tuning may
+enhance model performance.</li>
+<li>Consideration of additional features or data sources might provide
+valuable insights for improving prediction accuracy and recall.</li>
+</ul>
+</section>
+<section id="hyperparameter-tuning-for-classification-models"
+class="cell markdown" id="PN1yY92Xmiar">
+<h1><strong>Hyperparameter Tuning for Classification
+Models</strong></h1>
+<p>This section details the process of hyperparameter tuning for various
+classification models used in predicting low birth weight.</p>
+<h3 id="parameter-grids">Parameter Grids</h3>
+<ul>
+<li>Parameter grids are defined for each model, specifying the
+hyperparameters to be tuned.</li>
+<li>Hyperparameters include regularization strength, solver algorithms,
+number of neighbors, tree depth, number of estimators, learning rate,
+etc.</li>
+</ul>
+<h3 id="grid-search-process">Grid Search Process</h3>
+<ul>
+<li>Grid search is conducted for each model using cross-validation with
+5 folds.</li>
+<li>The <code>GridSearchCV</code> function from scikit-learn efficiently
+explores various hyperparameter combinations.</li>
+<li>The accuracy metric (<code>scoring='accuracy'</code>) is used for
+optimization.</li>
+</ul>
+<h3 id="results-and-analysis">Results and Analysis</h3>
+<ul>
+<li>The best parameters and corresponding scores for each model are
+recorded.</li>
+<li>Results are organized into a DataFrame for easy comparison and
+analysis.</li>
+<li>The models are ranked based on their best scores, providing insights
+into the effectiveness of different hyperparameter settings.</li>
+</ul>
+<h3 id="insights">Insights</h3>
+<ul>
+<li>Hyperparameter tuning aims to find the optimal settings that
+maximize model performance.</li>
+<li>Tuning helps in fine-tuning the models to achieve better accuracy
+and generalization on unseen data.</li>
+<li>Selection of the best model configuration plays a crucial role in
+building robust predictive models for low birth weight prediction.</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="21"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:337}"
+id="LE3lEbFXYpSh" data-outputId="0890e663-832e-4787-8766-a1ca794c1483">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Define parameter grids for each model</span></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>param_grids <span class="op">=</span> {</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Logistic Regression&#39;</span>: {</span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;C&#39;</span>: [<span class="fl">0.01</span>, <span class="fl">0.1</span>, <span class="dv">10</span>],</span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;solver&#39;</span>: [<span class="st">&#39;liblinear&#39;</span>, <span class="st">&#39;lbfgs&#39;</span>]</span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Ridge Classification&#39;</span>: {</span>
+<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;alpha&#39;</span>: [<span class="fl">0.01</span>, <span class="fl">0.1</span>,]</span>
+<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb31-12"><a href="#cb31-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;K-Nearest Neighbors&#39;</span>: {</span>
+<span id="cb31-13"><a href="#cb31-13" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;n_neighbors&#39;</span>: [<span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">7</span>],</span>
+<span id="cb31-14"><a href="#cb31-14" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;weights&#39;</span>: [<span class="st">&#39;uniform&#39;</span>, <span class="st">&#39;distance&#39;</span>]</span>
+<span id="cb31-15"><a href="#cb31-15" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb31-16"><a href="#cb31-16" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Decision Tree&#39;</span>: {</span>
+<span id="cb31-17"><a href="#cb31-17" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;max_depth&#39;</span>: [<span class="va">None</span>, <span class="dv">5</span>, <span class="dv">10</span>,<span class="dv">20</span>],</span>
+<span id="cb31-18"><a href="#cb31-18" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;min_samples_split&#39;</span>: [<span class="dv">2</span>, <span class="dv">5</span>, <span class="dv">10</span>]</span>
+<span id="cb31-19"><a href="#cb31-19" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb31-20"><a href="#cb31-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Random Forest&#39;</span>: {</span>
+<span id="cb31-21"><a href="#cb31-21" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;n_estimators&#39;</span>: [<span class="dv">150</span>,<span class="dv">200</span>,<span class="dv">250</span>],</span>
+<span id="cb31-22"><a href="#cb31-22" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;max_depth&#39;</span>: [ <span class="dv">10</span>,<span class="dv">30</span>,<span class="dv">35</span>,<span class="dv">25</span>]</span>
+<span id="cb31-23"><a href="#cb31-23" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb31-24"><a href="#cb31-24" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Gradient Boosting&#39;</span>: {</span>
+<span id="cb31-25"><a href="#cb31-25" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;n_estimators&#39;</span>: [<span class="dv">100</span>, <span class="dv">200</span>],</span>
+<span id="cb31-26"><a href="#cb31-26" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;learning_rate&#39;</span>: [<span class="fl">0.01</span>, <span class="fl">0.1</span>],</span>
+<span id="cb31-27"><a href="#cb31-27" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;max_depth&#39;</span>: [<span class="dv">3</span>, <span class="dv">5</span>]</span>
+<span id="cb31-28"><a href="#cb31-28" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb31-29"><a href="#cb31-29" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb31-30"><a href="#cb31-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-31"><a href="#cb31-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize dictionary to store best models and their scores</span></span>
+<span id="cb31-32"><a href="#cb31-32" aria-hidden="true" tabindex="-1"></a>best_models <span class="op">=</span> {}</span>
+<span id="cb31-33"><a href="#cb31-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-34"><a href="#cb31-34" aria-hidden="true" tabindex="-1"></a><span class="co"># Perform grid search for each model</span></span>
+<span id="cb31-35"><a href="#cb31-35" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> model_name, params <span class="kw">in</span> param_grids.items():</span>
+<span id="cb31-36"><a href="#cb31-36" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Processing </span><span class="sc">{</span>model_name<span class="sc">}</span><span class="ss">...&quot;</span>)</span>
+<span id="cb31-37"><a href="#cb31-37" aria-hidden="true" tabindex="-1"></a>    model <span class="op">=</span> models[model_name]</span>
+<span id="cb31-38"><a href="#cb31-38" aria-hidden="true" tabindex="-1"></a>    grid_search <span class="op">=</span> GridSearchCV(estimator<span class="op">=</span>model, param_grid<span class="op">=</span>params, scoring<span class="op">=</span><span class="st">&#39;accuracy&#39;</span>, cv<span class="op">=</span><span class="dv">5</span>, n_jobs<span class="op">=-</span><span class="dv">1</span>)</span>
+<span id="cb31-39"><a href="#cb31-39" aria-hidden="true" tabindex="-1"></a>    grid_search.fit(X_train, y_train)</span>
+<span id="cb31-40"><a href="#cb31-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-41"><a href="#cb31-41" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Store the best model and its score</span></span>
+<span id="cb31-42"><a href="#cb31-42" aria-hidden="true" tabindex="-1"></a>    best_models[model_name] <span class="op">=</span> {</span>
+<span id="cb31-43"><a href="#cb31-43" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;Best Parameters&#39;</span>: grid_search.best_params_,</span>
+<span id="cb31-44"><a href="#cb31-44" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;Best Score&#39;</span>: grid_search.best_score_</span>
+<span id="cb31-45"><a href="#cb31-45" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb31-46"><a href="#cb31-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-47"><a href="#cb31-47" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert results to DataFrame for easy viewing</span></span>
+<span id="cb31-48"><a href="#cb31-48" aria-hidden="true" tabindex="-1"></a>results_tuning <span class="op">=</span> pd.DataFrame.from_dict(best_models, orient<span class="op">=</span><span class="st">&#39;index&#39;</span>).sort_values(by<span class="op">=</span><span class="st">&#39;Best Score&#39;</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb31-49"><a href="#cb31-49" aria-hidden="true" tabindex="-1"></a>results_tuning</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Processing Logistic Regression...
+Processing Ridge Classification...
+Processing K-Nearest Neighbors...
+Processing Decision Tree...
+Processing Random Forest...
+Processing Gradient Boosting...
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="21">
+
+  <div id="df-af0b3f7d-c9c7-4669-8baf-ee1ccf363e0f" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Best Parameters</th>
+      <th>Best Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Gradient Boosting</th>
+      <td>{'learning_rate': 0.01, 'max_depth': 3, 'n_est...</td>
+      <td>0.951429</td>
+    </tr>
+    <tr>
+      <th>Random Forest</th>
+      <td>{'max_depth': 10, 'n_estimators': 200}</td>
+      <td>0.951429</td>
+    </tr>
+    <tr>
+      <th>Logistic Regression</th>
+      <td>{'C': 10, 'solver': 'liblinear'}</td>
+      <td>0.949701</td>
+    </tr>
+    <tr>
+      <th>Ridge Classification</th>
+      <td>{'alpha': 0.01}</td>
+      <td>0.948831</td>
+    </tr>
+    <tr>
+      <th>K-Nearest Neighbors</th>
+      <td>{'n_neighbors': 5, 'weights': 'uniform'}</td>
+      <td>0.948827</td>
+    </tr>
+    <tr>
+      <th>Decision Tree</th>
+      <td>{'max_depth': 5, 'min_samples_split': 10}</td>
+      <td>0.947100</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-af0b3f7d-c9c7-4669-8baf-ee1ccf363e0f')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-af0b3f7d-c9c7-4669-8baf-ee1ccf363e0f button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-af0b3f7d-c9c7-4669-8baf-ee1ccf363e0f');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-e5e018be-5853-4d67-9d4f-999e789a6056">
+  <button class="colab-df-quickchart" onclick="quickchart('df-e5e018be-5853-4d67-9d4f-999e789a6056')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-e5e018be-5853-4d67-9d4f-999e789a6056 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+  <div id="id_beb2e417-e485-4079-809c-623f081e08e7">
+    <style>
+      .colab-df-generate {
+        background-color: #E8F0FE;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        display: none;
+        fill: #1967D2;
+        height: 32px;
+        padding: 0 0 0 0;
+        width: 32px;
+      }
+
+      .colab-df-generate:hover {
+        background-color: #E2EBFA;
+        box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+        fill: #174EA6;
+      }
+
+      [theme=dark] .colab-df-generate {
+        background-color: #3B4455;
+        fill: #D2E3FC;
+      }
+
+      [theme=dark] .colab-df-generate:hover {
+        background-color: #434B5C;
+        box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+        filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+        fill: #FFFFFF;
+      }
+    </style>
+    <button class="colab-df-generate" onclick="generateWithVariable('results_tuning')"
+            title="Generate code using this dataframe."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M7,19H8.4L18.45,9,17,7.55,7,17.6ZM5,21V16.75L18.45,3.32a2,2,0,0,1,2.83,0l1.4,1.43a1.91,1.91,0,0,1,.58,1.4,1.91,1.91,0,0,1-.58,1.4L9.25,21ZM18.45,9,17,7.55Zm-12,3A5.31,5.31,0,0,0,4.9,8.1,5.31,5.31,0,0,0,1,6.5,5.31,5.31,0,0,0,4.9,4.9,5.31,5.31,0,0,0,6.5,1,5.31,5.31,0,0,0,8.1,4.9,5.31,5.31,0,0,0,12,6.5,5.46,5.46,0,0,0,6.5,12Z"/>
+  </svg>
+    </button>
+    <script>
+      (() => {
+      const buttonEl =
+        document.querySelector('#id_beb2e417-e485-4079-809c-623f081e08e7 button.colab-df-generate');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      buttonEl.onclick = () => {
+        google.colab.notebook.generateWithVariable('results_tuning');
+      }
+      })();
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<section id="best-hyperparameters-and-model-performance"
+class="cell markdown" id="PXCQuuHemxaU">
+<h2>Best Hyperparameters and Model Performance</h2>
+<p>This section presents the best hyperparameters and corresponding
+scores obtained after hyperparameter tuning for each classification
+model:</p>
+<table>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 62%" />
+<col style="width: 13%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Model</th>
+<th>Best Parameters</th>
+<th>Best Score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Random Forest</td>
+<td>{'max_depth': 30, 'n_estimators': 200}</td>
+<td>0.951</td>
+</tr>
+<tr class="even">
+<td>Gradient Boosting</td>
+<td>{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 100}</td>
+<td>0.951</td>
+</tr>
+<tr class="odd">
+<td>Logistic Regression</td>
+<td>{'C': 10, 'solver': 'liblinear'}</td>
+<td>0.950</td>
+</tr>
+<tr class="even">
+<td>Ridge Classification</td>
+<td>{'alpha': 0.01}</td>
+<td>0.949</td>
+</tr>
+<tr class="odd">
+<td>K-Nearest Neighbors</td>
+<td>{'n_neighbors': 5, 'weights': 'uniform'}</td>
+<td>0.949</td>
+</tr>
+<tr class="even">
+<td>Decision Tree</td>
+<td>{'max_depth': 5, 'min_samples_split': 2}</td>
+<td>0.947</td>
+</tr>
+</tbody>
+</table>
+<h3 id="insights">Insights:</h3>
+<ul>
+<li>Random Forest and Gradient Boosting achieved the highest scores of
+0.951 after tuning, indicating their effectiveness in predicting low
+birth weight.</li>
+<li>Logistic Regression and Ridge Classification also performed well,
+with scores close to 0.950.</li>
+<li>Decision Tree exhibited the lowest score among the tuned models,
+indicating relatively lower performance compared to other models.</li>
+<li>The choice of hyperparameters significantly impacts model
+performance, and tuning helps identify the optimal settings for improved
+accuracy and generalization.</li>
+</ul>
+</section>
+<section id="test-data-preprocessing-and-feature-engineering"
+class="cell markdown" id="aKCjIeXBnBVb">
+<h1><strong>Test Data Preprocessing and Feature
+Engineering</strong></h1>
+<p>This section outlines the preprocessing steps and feature engineering
+applied to the test dataset (<code>df_test</code>) before making
+predictions.</p>
+<h3 id="imputation-of-missing-values">Imputation of Missing Values</h3>
+<ul>
+<li>Missing values in continuous features are imputed with the mean of
+each respective column to ensure completeness of the dataset.</li>
+</ul>
+<h3 id="feature-engineering">Feature Engineering</h3>
+<ol>
+<li><strong>Maternal Health</strong>:
+<ul>
+<li>A binary feature is created based on the maternal alcohol
+consumption (<code>drink</code>) and cigarette usage
+(<code>cigs</code>). If either exceeds a certain threshold, the feature
+is set to 1, indicating potential health risks to the mother.</li>
+</ul></li>
+<li><strong>Prenatal Care Quality</strong>:
+<ul>
+<li>Another binary feature is derived from the number of prenatal visits
+(<code>npvis</code>). If the number of visits is equal to or greater
+than 8, it suggests good prenatal care quality, marked as 1; otherwise,
+it is marked as 0.</li>
+</ul></li>
+<li><strong>Prenatal Nutrition Index</strong>:
+<ul>
+<li>The average of father's education (<code>feduc</code>) and mother's
+education (<code>meduc</code>) is computed to create a prenatal
+nutrition index, representing the level of education as a proxy for
+awareness about prenatal nutrition.</li>
+</ul></li>
+<li><strong>Stress Indicator</strong>:
+<ul>
+<li>A binary indicator is created based on maternal age
+(<code>mage</code>) and prenatal care quality. If maternal age is below
+20 or prenatal care quality is low, the feature is set to 1, indicating
+potential stress factors.</li>
+</ul></li>
+</ol>
+<h3 id="log-transformation">Log Transformation</h3>
+<ul>
+<li>Logarithmic transformations are applied to numerical features
+(excluding 'obs_id') to stabilize variance and improve the linearity of
+relationships between features and the target variable.</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="22" id="R3GtiTfXQus-">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Assume df_test is your test DataFrame</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Impute missing values for continuous features once at the beginning</span></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> df_test.select_dtypes(include<span class="op">=</span>np.number).columns:</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>    df_test[col].fillna(df_test[col].mean(), inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Feature engineering</span></span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>df_test[<span class="st">&#39;maternal_health&#39;</span>] <span class="op">=</span> np.where((df_test[<span class="st">&#39;drink&#39;</span>] <span class="op">&gt;</span> <span class="dv">2</span>) <span class="op">|</span> (df_test[<span class="st">&#39;cigs&#39;</span>] <span class="op">&gt;</span> <span class="dv">9</span>), <span class="dv">1</span>, <span class="dv">0</span>)</span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>df_test[<span class="st">&#39;precare_quality&#39;</span>] <span class="op">=</span> np.where(df_test[<span class="st">&#39;npvis&#39;</span>] <span class="op">&gt;=</span> <span class="dv">8</span>, <span class="dv">1</span>, <span class="dv">0</span>)</span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>df_test[<span class="st">&#39;prenatal_nutrition_index&#39;</span>] <span class="op">=</span> (df_test[<span class="st">&#39;feduc&#39;</span>] <span class="op">+</span> df_test[<span class="st">&#39;meduc&#39;</span>]) <span class="op">/</span> <span class="dv">2</span></span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>df_test[<span class="st">&#39;stress_indicator&#39;</span>] <span class="op">=</span> ((df_test[<span class="st">&#39;mage&#39;</span>] <span class="op">&lt;</span> <span class="dv">20</span>) <span class="op">|</span> (df_test[<span class="st">&#39;precare_quality&#39;</span>] <span class="op">==</span> <span class="dv">0</span>)).astype(<span class="bu">int</span>)</span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Log transformation excluding &#39;obs_id&#39;</span></span>
+<span id="cb33-13"><a href="#cb33-13" aria-hidden="true" tabindex="-1"></a>exclude_columns <span class="op">=</span> [<span class="st">&#39;obs_id&#39;</span>]  <span class="co"># Add any non-numeric or columns you don&#39;t want to transform</span></span>
+<span id="cb33-14"><a href="#cb33-14" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> df_test.columns:</span>
+<span id="cb33-15"><a href="#cb33-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> col <span class="kw">not</span> <span class="kw">in</span> exclude_columns <span class="kw">and</span> df_test[col].dtype <span class="op">!=</span> <span class="st">&#39;object&#39;</span>:</span>
+<span id="cb33-16"><a href="#cb33-16" aria-hidden="true" tabindex="-1"></a>        df_test[<span class="ss">f&quot;log_</span><span class="sc">{</span>col<span class="sc">}</span><span class="ss">&quot;</span>] <span class="op">=</span> np.log1p(df_test[col])</span></code></pre></div>
+</div>
+<section id="model-training-and-prediction-for-low-birth-weight"
+class="cell markdown" id="pEeeyVF_nJvE">
+<h1><strong>Model Training and Prediction for Low Birth
+Weight</strong></h1>
+<p>This section demonstrates the process of model training and
+prediction for low birth weight using the Random Forest Classifier.</p>
+<h3 id="data-splitting-for-model-training">Data Splitting for Model
+Training</h3>
+<ul>
+<li>The training dataset (<code>df_train</code>) is split into features
+(<code>X</code>) and the target variable (<code>y</code>) for model
+training.</li>
+<li>The data is further divided into training and testing sets using the
+<code>train_test_split</code> function.</li>
+</ul>
+<h3 id="model-training">Model Training</h3>
+<ul>
+<li>A Random Forest Classifier is initialized with the best
+hyperparameters obtained from tuning.</li>
+<li>The model is trained on the training data (<code>X_train</code>,
+<code>y_train</code>) using the <code>fit</code> method.</li>
+</ul>
+<h3 id="prediction-on-test-data">Prediction on Test Data</h3>
+<ul>
+<li>The test dataset (<code>df_test</code>) is prepared similarly to the
+training data, ensuring consistency in preprocessing steps.</li>
+<li>Features for the test data (<code>X_test</code>) are selected based
+on the same feature selection used for training.</li>
+</ul>
+<h3 id="generating-predictions">Generating Predictions</h3>
+<ul>
+<li>The trained Random Forest model is used to predict low birth weight
+for the test data.</li>
+<li>Predictions are generated using the <code>predict</code> method on
+the test features.</li>
+</ul>
+<h3 id="submission-preparation">Submission Preparation</h3>
+<ul>
+<li>A submission DataFrame is created, containing the observations IDs
+(<code>ID</code>) from <code>df_test</code> and the corresponding low
+birth weight predictions (<code>low_bwght</code>).</li>
+<li>Optionally, the submission DataFrame can be saved to a CSV file for
+submission.</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="23" id="fi1AK57QdoGj">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Assuming df_train has been prepared similarly to df_test</span></span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Splitting df_train for model training</span></span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df_train[features]  <span class="co"># Ensure &#39;features&#39; list is defined as per your feature selection</span></span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> df_train[<span class="st">&#39;is_low_bwght&#39;</span>]  <span class="co"># Target variable column name in df_train</span></span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.3</span>, random_state<span class="op">=</span><span class="dv">100</span>)</span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize and train the RandomForestClassifier with the best parameters</span></span>
+<span id="cb34-11"><a href="#cb34-11" aria-hidden="true" tabindex="-1"></a>rf_model <span class="op">=</span> RandomForestClassifier(max_depth<span class="op">=</span><span class="dv">35</span>, n_estimators<span class="op">=</span><span class="dv">150</span>, random_state<span class="op">=</span><span class="dv">100</span>)</span>
+<span id="cb34-12"><a href="#cb34-12" aria-hidden="true" tabindex="-1"></a>rf_model.fit(X_train, y_train)</span>
+<span id="cb34-13"><a href="#cb34-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-14"><a href="#cb34-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Prepare df_test for prediction</span></span>
+<span id="cb34-15"><a href="#cb34-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Note: Ensure df_test is prepared and contains all necessary transformations as mentioned previously</span></span>
+<span id="cb34-16"><a href="#cb34-16" aria-hidden="true" tabindex="-1"></a>X_test <span class="op">=</span> df_test[features]  <span class="co"># Using the same features list as for training</span></span>
+<span id="cb34-17"><a href="#cb34-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-18"><a href="#cb34-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Predict on df_test</span></span>
+<span id="cb34-19"><a href="#cb34-19" aria-hidden="true" tabindex="-1"></a>predictions <span class="op">=</span> rf_model.predict(X_test)</span>
+<span id="cb34-20"><a href="#cb34-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-21"><a href="#cb34-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Create submission DataFrame</span></span>
+<span id="cb34-22"><a href="#cb34-22" aria-hidden="true" tabindex="-1"></a>submission <span class="op">=</span> pd.DataFrame({</span>
+<span id="cb34-23"><a href="#cb34-23" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;ID&#39;</span>: df_test[<span class="st">&#39;obs_id&#39;</span>],  <span class="co"># Ensure obs_id is included in df_test</span></span>
+<span id="cb34-24"><a href="#cb34-24" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;low_bwght&#39;</span>: predictions  <span class="co"># This column will contain the predictions</span></span>
+<span id="cb34-25"><a href="#cb34-25" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb34-26"><a href="#cb34-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-27"><a href="#cb34-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Optionally, save the submission DataFrame to a CSV file</span></span>
+<span id="cb34-28"><a href="#cb34-28" aria-hidden="true" tabindex="-1"></a>submission.to_csv(<span class="st">&#39;submission.csv&#39;</span>, index<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb34-29"><a href="#cb34-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-30"><a href="#cb34-30" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="24"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="WyiH_pp6p8UD" data-outputId="28a79653-4aac-4381-e993-48634b9dc823">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract feature importances from the Random Forest model</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>feature_importances <span class="op">=</span> rf_model.feature_importances_</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Mapping these importances to the corresponding feature names</span></span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>features_df <span class="op">=</span> pd.DataFrame({<span class="st">&#39;Feature&#39;</span>: features, <span class="st">&#39;Importance&#39;</span>: feature_importances})</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Sorting the features by their importance</span></span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a>sorted_features <span class="op">=</span> features_df.sort_values(by<span class="op">=</span><span class="st">&#39;Importance&#39;</span>, ascending<span class="op">=</span><span class="va">False</span>).reset_index(drop<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Printing the top 2 features</span></span>
+<span id="cb35-11"><a href="#cb35-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Top 2 features by importance:&quot;</span>)</span>
+<span id="cb35-12"><a href="#cb35-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(sorted_features.head(<span class="dv">2</span>))</span>
+<span id="cb35-13"><a href="#cb35-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-14"><a href="#cb35-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Assuming the top two features are as identified</span></span>
+<span id="cb35-15"><a href="#cb35-15" aria-hidden="true" tabindex="-1"></a>top_feature_1 <span class="op">=</span> sorted_features.iloc[<span class="dv">0</span>][<span class="st">&#39;Feature&#39;</span>]</span>
+<span id="cb35-16"><a href="#cb35-16" aria-hidden="true" tabindex="-1"></a>top_feature_2 <span class="op">=</span> sorted_features.iloc[<span class="dv">1</span>][<span class="st">&#39;Feature&#39;</span>]</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Top 2 features by importance:
+    Feature  Importance
+0  log_mage    0.157163
+1  log_fage    0.135303
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="48VWGc54rtIC">
+<h3
+id="q4-which-two-features-in-your-machine-learning-model-had-the-largest-impact-on-birthweight-present-one-actionable-insight-for-each-of-these-minimum-5-sentences-per-feature"><strong>Q4)
+Which two features in your machine learning model had the largest impact
+on birthweight? Present one actionable insight for each of these.
+(minimum 5 sentences per feature)</strong></h3>
+<h3 id="feature-1-log-transformed-maternal-age-log_mage">Feature 1:
+Log-transformed Maternal Age (<code>log_mage</code>)</h3>
+<p><strong>Insight</strong>: The importance of <code>log_mage</code>
+underscores the critical role maternal age plays in birth outcomes.
+Maternal age influences a wide range of pregnancy outcomes, including
+the risk of low birthweight. Younger and older maternal ages are often
+associated with higher risks, possibly due to biological and
+socioeconomic factors.</p>
+<p><strong>Actionable Insight</strong>: To address the risks associated
+with maternal age, healthcare providers can develop age-specific
+prenatal programs. For younger mothers, these programs could focus on
+comprehensive support services, including education on healthy pregnancy
+practices and access to nutritional programs. For older mothers,
+enhanced monitoring and intervention strategies could be implemented to
+manage age-related risk factors. Public health initiatives could also
+target raising awareness about the optimal age for pregnancy and the
+importance of pre-pregnancy health assessments to identify and mitigate
+risks before conception.</p>
+<h3 id="feature-2-log-transformed-paternal-age-log_fage">Feature 2:
+Log-transformed Paternal Age (<code>log_fage</code>)</h3>
+<p><strong>Insight</strong>: The significance of <code>log_fage</code>
+highlights the often-overlooked impact of paternal age on birth
+outcomes. Research has shown that advanced paternal age can be
+associated with an increased risk of various adverse outcomes, including
+low birthweight, due to genetic mutations, chromosomal abnormalities,
+and other factors.</p>
+<p><strong>Actionable Insight</strong>: Encouraging fathers to engage in
+preconception health care can be a crucial step toward mitigating risks
+associated with paternal age. This includes genetic counseling, health
+screenings, and lifestyle modifications to improve overall health before
+conception. Public health messages and prenatal care programs should
+include information on paternal age's impact, promoting early planning
+and health optimization for prospective fathers. Additionally, fertility
+awareness programs can help couples make informed decisions about timing
+pregnancies, considering both maternal and paternal ages.</p>
+</div>
+<div class="cell code" data-execution_count="25"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:638}"
+id="LcUCbLF8qhF5" data-outputId="df5a171e-15f5-4e18-8e41-9dd573b31c8c">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> confusion_matrix</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate predictions on the validation set</span></span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>y_val_pred <span class="op">=</span> rf_model.predict(X_val)</span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate the confusion matrix</span></span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>cm <span class="op">=</span> confusion_matrix(y_val, y_val_pred)</span>
+<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting the confusion matrix</span></span>
+<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">7</span>))</span>
+<span id="cb37-13"><a href="#cb37-13" aria-hidden="true" tabindex="-1"></a>sns.heatmap(cm, annot<span class="op">=</span><span class="va">True</span>, fmt<span class="op">=</span><span class="st">&quot;d&quot;</span>, cmap<span class="op">=</span><span class="st">&quot;Blues&quot;</span>, xticklabels<span class="op">=</span>[<span class="st">&#39;Predicted Negative&#39;</span>, <span class="st">&#39;Predicted Positive&#39;</span>], yticklabels<span class="op">=</span>[<span class="st">&#39;Actual Negative&#39;</span>, <span class="st">&#39;Actual Positive&#39;</span>])</span>
+<span id="cb37-14"><a href="#cb37-14" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Confusion Matrix&#39;</span>)</span>
+<span id="cb37-15"><a href="#cb37-15" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Predicted&#39;</span>)</span>
+<span id="cb37-16"><a href="#cb37-16" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Actual&#39;</span>)</span>
+<span id="cb37-17"><a href="#cb37-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb37-18"><a href="#cb37-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-19"><a href="#cb37-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Print the confusion matrix</span></span>
+<span id="cb37-20"><a href="#cb37-20" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Confusion Matrix:&quot;</span>)</span>
+<span id="cb37-21"><a href="#cb37-21" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(cm)</span>
+<span id="cb37-22"><a href="#cb37-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-23"><a href="#cb37-23" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="PICS/8c9742cfd8a64be85a97ec10537bf4de159227b0.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Confusion Matrix:
+[[470   1]
+ [ 23   1]]
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="RrwdbGblrdzr">
+<h3
+id="q5-present-your-final-models-confusion-matrix-and-explain-what-each-error-means-false-positives-and-false-negatives-furthermore-explain-which-error-is-being-controlled-for-given-the-cohorts-focus-on-correctly-predicting-low-birthweight-as-well-as-why-this-error-is-more-important-to-control-than-the-other-error-minimum-5-sentences"><strong>Q5)
+Present your final model's confusion matrix and explain what each error
+means (false positives and false negatives). Furthermore, explain which
+error is being controlled for given the cohort's focus on correctly
+predicting low birthweight, as well as why this error is more important
+to control than the other error. (minimum 5 sentences)</strong></h3>
+<p>ANS :</p>
+<h3 id="confusion-matrix-interpretation">Confusion Matrix
+Interpretation:</h3>
+<ul>
+<li><strong>True Negatives (TN): 470</strong> - The model correctly
+predicted the normal birthweight (non-low birthweight) cases.</li>
+<li><strong>False Positives (FP): 1</strong> - The model incorrectly
+predicted low birthweight when the actual birthweight was normal. This
+error is relatively minor in this context, indicating the model seldom
+mistakenly identifies a normal birthweight as low.</li>
+<li><strong>False Negatives (FN): 23</strong> - The model failed to
+identify 23 cases of low birthweight, predicting them as normal instead.
+This is a critical error, as it represents missed opportunities for
+early intervention.</li>
+<li><strong>True Positives (TP): 1</strong> - The model correctly
+identified only one instance of low birthweight.</li>
+</ul>
+<h3 id="error-focus">Error Focus:</h3>
+<p>Given the cohort's focus on correctly predicting low birthweight
+(LBW), controlling for false negatives (FN) is paramount. False
+negatives in this context mean failing to identify babies who are
+actually at risk of the complications associated with LBW, such as
+developmental delays and increased susceptibility to illness. Reducing
+FN is crucial because it ensures that all at-risk infants are identified
+for further evaluation and management, potentially improving outcomes
+through timely intervention.</p>
+<h3 id="why-controlling-false-negatives-is-more-important">Why
+Controlling False Negatives is More Important:</h3>
+<ul>
+<li><strong>Health Implications:</strong> Missing a case of low
+birthweight (a false negative) can have more severe consequences for the
+infant's health and development than incorrectly identifying a case (a
+false positive). Early intervention can significantly impact the
+long-term health of babies with LBW, making it vital to minimize missed
+diagnoses.</li>
+<li><strong>Resource Allocation:</strong> While false positives could
+lead to unnecessary testing and worry, the healthcare system generally
+prefers to err on the side of caution, especially in pediatrics. The
+resources spent on additional evaluations for false positives are
+considered acceptable if it means potentially saving lives or improving
+health outcomes by not missing true LBW cases.</li>
+</ul>
+<h3 id="conclusion">Conclusion:</h3>
+<p>The model's configuration, reflected by the confusion matrix,
+suggests an excellent job at avoiding false positives but a need for
+improvement in reducing false negatives. Considering the goal of
+predicting low birthweight accurately, strategies to enhance the model's
+sensitivity (its ability to detect true positives) should be
+prioritized. This might involve revisiting the feature selection, model
+parameters, or incorporating more sophisticated modeling techniques that
+can better capture the complexities of the data related to low
+birthweight outcomes.</p>
+</div>
+</body>
+</html>
